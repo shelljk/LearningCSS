@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #738294;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #FFF;
+	padding: 30px;
+}
+
+#header {}
+
+#nav {
+	margin: 0;
+	padding: 0;
+	background-color: #4D586C;
+	color: white;
+}
+
+#nav li {
+	list-style: none;
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+#nav li a:link, #nav li a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#body {}
+
+#body p {
+	line-height: 1.6em;
+}
+
+.main {
+	width: 600px;
+	float: left;
+}
+
+.main-inner {
+	padding: 0 60px 0 0;
+}
+
+.side {
+	width: 300px;
+	float: left;
+}
+
+#footer {
+	background-color: #4D586C;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* clearfix tool */
+.clearfix:after {
+    content: ".";
+	display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+* hrml .clearfix {height: 1%;}
+.clearfix {display: block;}
